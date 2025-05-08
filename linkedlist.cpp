@@ -75,7 +75,7 @@ int main() {
         insert(b);
     }
 
-    // Menampilkan elemen linked list
+    // Menampilkan elemen linked list jembut
     node *current = linkedlist;
     while (current != NULL) {
         cout << current->value << " ";
