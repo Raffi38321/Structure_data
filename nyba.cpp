@@ -10,7 +10,6 @@ struct node{
 
 node *head;
 node *tail;
-int panjang = 0;
 
 void nambah_belakang(int nilai){
     node *linkbaru;
@@ -114,7 +113,7 @@ bool cari(int u){
 }
 
 void tambah_urutan(int urut,int nilai){
-    panjang = liat_panjang();
+    int panjang = liat_panjang();
     if(urut==0||head == NULL){
         nambah_depan(nilai);
         return;
